@@ -5,7 +5,6 @@
   "scripts": {
     "test": "mocha.cmd"
   },
-  "private": "false",
   "author": "Gloird <nicolas86200@gmail.com>",
   "bin": {
     "extract-swagger-for-endpoints-to-js": "bin/extract-swagger"
