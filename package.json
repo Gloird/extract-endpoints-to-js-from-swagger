@@ -1,12 +1,14 @@
 {
-  "name": "extract-swagger-for-endpoints",
+  "name": "@gloird/extract-swagger-for-endpoints-to",
   "version": "0.0.1",
-  "description": "Extract swagger/openapi spec with only required endpoint(s).",
+  "description": "Extract the swagger / openapi specification by creating a js exporter object.",
   "scripts": {
-    "test": "./node_modules/.bin/mocha.cmd"
+    "test": "mocha.cmd"
   },
-  "author": "Dupuis Nicolas <nicolas86200@gmail.com>",
-  "bin": "./bin/extract-swagger",
+  "author": "Gloird <nicolas86200@gmail.com>",
+  "bin": {
+    "extract-swagger-for-endpoints-to-js": "bin/extract-swagger"
+  },
   "license": "MIT",
   "dependencies": {
     "axios": "^0.21.1",
@@ -25,11 +27,20 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com:Gloird/extract-swagger-for-endpoints.git"
+    "url": "git+ssh://git@github.com/Gloird/extract-swagger-for-endpoints-to-js.git"
   },
   "keywords": [
     "swagger",
     "openapi",
     "endpoints"
-  ]
+  ],
+  "bugs": {
+    "url": "https://github.com/Gloird/extract-swagger-for-endpoints-to-js/issues"
+  },
+  "homepage": "https://github.com/Gloird/extract-swagger-for-endpoints-to-js#readme",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  }
 }
