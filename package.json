@@ -1,10 +1,11 @@
 {
-  "name": "@gloird/extract-swagger-for-endpoints-to",
+  "name": "@gloird/extract-swagger-for-endpoints-to-js",
   "version": "0.0.1",
   "description": "Extract the swagger / openapi specification by creating a js exporter object.",
   "scripts": {
     "test": "mocha.cmd"
   },
+  "private": "false",
   "author": "Gloird <nicolas86200@gmail.com>",
   "bin": {
     "extract-swagger-for-endpoints-to-js": "bin/extract-swagger"

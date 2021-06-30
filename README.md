@@ -1,15 +1,9 @@
 Extract swagger/openapi spec with only required endpoint(s).
 
 ```
-npm i -g extract-swagger-for-endpoints
+npm i @gloird/extract-swagger-for-endpoints-to-js
 
-extract-swagger-for-endpoints --src sourcefile.yml --dest output.yml '/pet/findByStatus' '/pet'
+extract-swagger-for-endpoints --src sourcefile.yml --dest output.yml
 
-extract-swagger-for-endpoints --src sourcefile.yml --list-paths
+extract-swagger-for-endpoints --srcUrl https://petstore.swagger.io/v2/swagger.json -d 'c:/test.js'
 ```
-
-TODO:
-
-1.  Fetch source yml from a url
-1.  Add swagger schema verification step
-1.  Remove unnecessay tags
