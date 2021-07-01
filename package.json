@@ -1,6 +1,6 @@
 {
   "name": "@gloird/extract-endpoints-to-js-from-swagger",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Extrayez la spécification swagger / openapi en créant un objet js.",
   "scripts": {
     "test": "mocha.cmd"
