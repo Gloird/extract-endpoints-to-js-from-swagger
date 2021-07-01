@@ -1,7 +1,7 @@
 {
-  "name": "@gloird/extract-swagger-for-endpoints-to-js",
+  "name": "@gloird/extract-endpoints-to-js-from-swagger",
   "version": "0.1.0",
-  "description": "Extract the swagger / openapi specification by creating a js exporter object.",
+  "description": "Extrayez la spécification swagger / openapi en créant un objet js.",
   "scripts": {
     "test": "mocha.cmd"
   },
@@ -27,7 +27,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/Gloird/extract-swagger-for-endpoints-to-js.git"
+    "url": "git+ssh://git@github.com:Gloird/extract-endpoints-to-js-from-swagger.git"
   },
   "keywords": [
     "swagger",
